@@ -30,7 +30,7 @@ public class RSA {
 	   
 	   long endTime   = System.nanoTime();
 	   long totalTime = endTime - startTime;
-	   System.out.println("RSA encryption finished in: " + totalTime / 1000000000.0 + "seconds.");
+	   System.out.println("RSA encryption finished in: " + totalTime / 1000000000.0 + " seconds.");
     }
 	
 	private static BigInteger get_encryption_key(BigInteger phi) {
